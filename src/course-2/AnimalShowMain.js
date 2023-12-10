@@ -23,7 +23,7 @@ function AnimalShowMain() {
               Animals
             </button>
           </div>
-          <div className="columns">
+          <div className="columns is-multiline">
             {renderAnimals}
           </div>
 
