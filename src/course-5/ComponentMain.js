@@ -5,7 +5,7 @@ import { FcBullish, FcFilmReel } from "react-icons/fc";
 export default function ComponentMain() {
   return (
     <>
-      <Button primary className="m-5">
+      <Button primary>
         <PiAlienLight />
         Click
       </Button>
@@ -15,7 +15,6 @@ export default function ComponentMain() {
       </Button>
       <Button success outlined>
       <FcBullish />
-
         Click
       </Button>
       <Button warning rounded outlined>
