@@ -1,7 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import ImageShow from "./ImageShow";
-import { async } from "q";
 
 const unsplashUrl = "https://api.unsplash.com/search/photos";
 const unsplashAccessKey = process.env.REACT_APP_UNSPLASH_ACCESS_KEY;

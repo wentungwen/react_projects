@@ -11,7 +11,7 @@ function BookShow({ book }) {
     <>
       <div className="column is-3">
         <div className="card">
-          <img src="https://picsum.photos/300/200" className="card-image" />
+          <img src="https://picsum.photos/300/200" className="card-image" alt="pic"/>
           <div className="card-content">
             <div className="content is-small"> ID: {book.id}</div>
             {editMode ? (

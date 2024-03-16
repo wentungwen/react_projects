@@ -6,7 +6,7 @@ function ImageShow({ listData }) {
       <div className="columns  is-multiline">
         {listData.map((imageUrl, index) => (
           <div key={index} className="column is-3">
-            <img className="image" src={imageUrl} alt={`Image ${index}`} />
+            <img className="image" src={imageUrl} alt={`${index}`} />
           </div>
         ))}
       </div>

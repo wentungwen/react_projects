@@ -1,6 +1,5 @@
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import "./style.css";
-import "bulma/css/bulma.css";
+// import "bulma/css/bulma.css";
 import ProfileCardMain from "../src/course-1/ProfileCardMain";
 import AnimalShowMain from "../src/course-2/AnimalShowMain";
 import ImageSearcherMain from "../src/course-3/ImageSearcherMain";
@@ -9,11 +8,11 @@ import ComponentMain from "./course-5/ComponentMain";
 
 function App() {
   const routers = [
-    { name: "project-1", component: ProfileCardMain },
-    { name: "project-2", component: AnimalShowMain },
-    { name: "project-3", component: ImageSearcherMain },
-    { name: "project-4", component: BookMain },
-    { name: "project-5", component: ComponentMain },
+    { name: "project-1: Profile Card", component: ProfileCardMain },
+    { name: "project-2: Animal Show", component: AnimalShowMain },
+    { name: "project-3: Image Searcher", component: ImageSearcherMain },
+    { name: "project-4: Books library - Context & Hooks", component: BookMain },
+    { name: "project-5: Variant components", component: ComponentMain },
   ];
   return (
     <>
