@@ -9,7 +9,6 @@ function AccordionItem({ items }) {
 
     const icon = (
       <span className="text-xl">
-        {" "}
         {isExpanded ? <AiFillCaretDown /> : <AiFillCaretRight />}
       </span>
     );

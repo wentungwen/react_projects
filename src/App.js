@@ -6,6 +6,10 @@ import ImageSearcherMain from "../src/course-3/ImageSearcherMain";
 import BookMain from "./course-4/BookMain";
 import ComponentMain from "./course-5/ComponentMain";
 import AccordionMain from "./course-6/AccordionMain";
+import ColorSelectorMain from "./course-7/ColorSelectorMain";
+import ModalToggleMain from "./course-8/ModalToggleMain";
+import TableMain from "./course-9/TableMain";
+import CounterMain from "./course-10/CounterMain";
 
 function App() {
   const routers = [
@@ -15,6 +19,14 @@ function App() {
     { name: "project-4: Books library - Context & Hooks", component: BookMain },
     { name: "project-5: Variant components", component: ComponentMain },
     { name: "project-6: Accordian", component: AccordionMain },
+    { name: "project-7: Color Selector", component: ColorSelectorMain },
+    { name: "project-8: Modal", component: ModalToggleMain },
+    { name: "project-9: Table", component: TableMain },
+    {
+      name: "project-10: Counter Redux",
+      component: CounterMain,
+      config: { initialCount: 0 },
+    },
   ];
   return (
     <>
@@ -39,7 +51,9 @@ function App() {
                     <Route
                       key={index}
                       path={`/project-${index + 1}`}
-                      component={course.component}
+                      render={(prop) => (
+                        <course.component {...prop} config={course.config} />
+                      )}
                     ></Route>
                   ))}
                 </Switch>
