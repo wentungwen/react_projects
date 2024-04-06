@@ -10,6 +10,8 @@ import ColorSelectorMain from "./course-7/ColorSelectorMain";
 import ModalToggleMain from "./course-8/ModalToggleMain";
 import TableMain from "./course-9/TableMain";
 import CounterMain from "./course-10/CounterMain";
+import CarMain from "./course-11/CarMain";
+import AlbumsMain from "./course-12/AlbumsMain";
 
 function App() {
   const routers = [
@@ -27,6 +29,15 @@ function App() {
       component: CounterMain,
       config: { initialCount: 0 },
     },
+    {
+      name: "project-11: Multiple slices",
+      component: CarMain,
+    },
+    {
+      name: "project-12: Async Thunks",
+      component: AlbumsMain,
+    },
+    
   ];
   return (
     <>
@@ -67,3 +78,4 @@ function App() {
 }
 
 export default App;
+
