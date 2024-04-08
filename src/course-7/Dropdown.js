@@ -55,14 +55,3 @@ export default function Dropdown({ options, curValue, onChange }) {
   );
 }
 
-// const dp = document.querySelector('.w-48')
-
-// const handleClick = (e) => {
-//   if (dp.contains(e.target)){
-//     console.log('inside dp')
-//   }else{
-//     console.log('outside dp')
-//   }
-// }
-
-// document.addEventListener('click', handleClick, false)

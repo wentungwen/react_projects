@@ -1,5 +1,6 @@
 import className from "classnames";
 import { twMerge } from "tailwind-merge";
+import { GoSync } from "react-icons/go";
 
 export default function Button({
   children,
@@ -11,6 +12,7 @@ export default function Button({
   info,
   rounded,
   outlined,
+  loading,
   ...rest
 }) {
   const classes = twMerge(
@@ -18,6 +20,7 @@ export default function Button({
       rest.className,
       "py-1.5 px-3 text-white border flex items-center",
       {
+        "opacity-80": loading,
         "bg-blue-500 border-blue-500": primary,
         "bg-gray-500 border-gray-500": secondary,
         "border-green-500 bg-green-500 border-solid": success,
@@ -36,8 +39,8 @@ export default function Button({
     )
   );
   return (
-    <button {...rest} className={classes}>
-      {children}
+    <button {...rest} disabled={loading} className={classes}>
+      {loading ? <GoSync className="animate-spin" /> : children}
     </button>
   );
 }

@@ -1,8 +1,11 @@
-export default function AlbumsMain(){
+import UserList from "./components/UserList";
+import { Provider } from "react-redux";
+import { store } from "./store";
 
-    return (
-        <div>
-            <h1>Albums</h1>
-        </div>
-    )
+export default function AlbumsMain() {
+  return (
+    <Provider store={store}>
+      <UserList />
+    </Provider>
+  );
 }

@@ -5,7 +5,6 @@ export default function CarForm() {
   const dispatch = useDispatch();
 
   const { name, cost } = useSelector((state) => {
-    // console.log(state);
     return {
       name: state.form.name,
       cost: state.form.cost,

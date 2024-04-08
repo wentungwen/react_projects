@@ -11,7 +11,6 @@ function ImageSearcherMain() {
       <SearchBar
         onEmitValue={(keyword) => {
           setKeyword(keyword);
-          console.log(keyword);
         }}
       ></SearchBar>
       <ImageList keyword={keyword}></ImageList>

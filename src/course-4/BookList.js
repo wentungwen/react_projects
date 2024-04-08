@@ -2,7 +2,6 @@ import BookShow from "./BookShow";
 import useBooksContext from "./hooks/use-books-context";
 
 function BookList() {
-    console.log(useBooksContext());
   const { books } = useBooksContext();
 
   const renderBooks = books.map((book, index) => (

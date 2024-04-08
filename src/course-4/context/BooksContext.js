@@ -14,7 +14,6 @@ function BookProvider({ children }) {
   const handleDelete = (id) => {
     setBooks((prevBooks) => {
       const rest_books = prevBooks.filter((book) => book.id !== id);
-      console.log("rest_books", rest_books);
       return rest_books;
     });
   };
