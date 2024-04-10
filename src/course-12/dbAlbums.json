@@ -1,0 +1,84 @@
+{
+  "users": [
+    {
+      "id": "908d",
+      "name": "Eloise White"
+    },
+    {
+      "id": "1ec3",
+      "name": "Dr. Albert Lockman"
+    },
+    {
+      "id": "5f02",
+      "name": "Cedric Deckow"
+    },
+    {
+      "id": "2e9d",
+      "name": "Ray Nitzsche"
+    }
+  ],
+  "albums": [
+    {
+      "id": "6f5d",
+      "userId": null,
+      "title": "Ergonomic Cotton Ball"
+    },
+    {
+      "id": "32d5",
+      "userId": null,
+      "title": "Luxurious Frozen Keyboard"
+    },
+    {
+      "id": "d4db",
+      "userId": null,
+      "title": "Modern Steel Gloves"
+    },
+    {
+      "id": "56be",
+      "userId": "908d",
+      "title": "Intelligent Cotton Towels"
+    },
+    {
+      "id": "7433",
+      "userId": "908d",
+      "title": "Practical Bronze Shirt"
+    },
+    {
+      "id": "6227",
+      "userId": "1ec3",
+      "title": "Ergonomic Metal Bike"
+    }
+  ],
+  "photos": [
+    {
+      "id": "bd6e",
+      "albumId": "56be",
+      "url": "https://loremflickr.com/150/150/abstract?lock=5376247423041536"
+    },
+    {
+      "id": "4b11",
+      "albumId": "7433",
+      "url": "https://loremflickr.com/150/150/abstract?lock=2986787509108736"
+    },
+    {
+      "id": "7456",
+      "albumId": "6227",
+      "url": "https://picsum.photos/seed/vufFBV2N/640/480"
+    },
+    {
+      "id": "7809",
+      "albumId": "56be",
+      "url": "https://loremflickr.com/640/480?lock=6089765963169792"
+    },
+    {
+      "id": "f77f",
+      "albumId": "56be",
+      "url": "https://picsum.photos/seed/C63cxkc3/640/480"
+    },
+    {
+      "id": "3fed",
+      "albumId": "56be",
+      "url": "https://picsum.photos/seed/l488QeLqUy/640/480"
+    }
+  ]
+}

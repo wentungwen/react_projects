@@ -2,8 +2,4 @@
 @tailwind components;
 @tailwind utilities;
 
-button > svg{
-    margin-right: 15px;
-}
-
 

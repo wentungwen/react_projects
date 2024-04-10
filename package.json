@@ -25,7 +25,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "start:server": "json-server --watch dbAlbums.json --port 3005",
+    "start:server": "json-server --watch src/course-12/dbAlbums.json --port 3005",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
