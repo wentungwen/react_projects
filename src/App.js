@@ -12,6 +12,7 @@ import TableMain from "./course-9/TableMain";
 import CounterMain from "./course-10/CounterMain";
 import CarMain from "./course-11/CarMain";
 import AlbumsMain from "./course-12/AlbumsMain";
+import MapMain from "./course-13/MapMain.tsx";
 
 function App() {
   const routers = [
@@ -36,6 +37,10 @@ function App() {
     {
       name: "project-12: Async Thunks",
       component: AlbumsMain,
+    },
+    {
+      name: "project-13: Map (Typescripts)",
+      component: MapMain,
     },
     
   ];
